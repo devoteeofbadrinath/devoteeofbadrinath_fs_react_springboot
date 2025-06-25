@@ -1,0 +1,19 @@
+import products from "../data/products";
+import PageHeading from "./PageHeading";
+import ProductListings from "./ProductListings";
+
+export default function Home() {
+    return (
+        <>
+            <h1 className="my-heading">Demo of Global CSS Scope from Home</h1>
+            <div className="home-container">
+            <PageHeading title="Explore Brdj stickers">
+            Add a touch of creativity to your space with our wide range of fun and
+            unique stickers. Perfect for any occasion!
+            </PageHeading>
+            <ProductListings products={products}/>
+            </div> 
+        </>
+        
+    )
+}
