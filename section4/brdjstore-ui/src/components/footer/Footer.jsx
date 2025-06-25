@@ -6,12 +6,14 @@ export default function Footer(){
     const isActive = Math.random() > 0.5;
     return (
         <>
-            <h1 style={isActive 
-            ? {textAlign: 'center', color: '#5B21B6'}
-            : {textAlign: 'center', color: '#333'}
-            }
+            {/* <h1 
+            style={{
+                textAlign: 'center', 
+                color: isActive ? '#5B21B6' : '#333'
+            }}
         >
-            Demo of Global CSS Scope from Footer</h1>
+            Demo of Global CSS Scope from Footer
+            </h1> */}
             {/* <h1 className="my-heading">Demo of Global CSS Scope from Footer</h1> */}
             <footer className="footer">
             Built with
