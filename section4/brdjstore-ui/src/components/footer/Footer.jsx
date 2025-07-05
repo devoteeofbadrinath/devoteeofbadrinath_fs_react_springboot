@@ -3,6 +3,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 // import "./footer.css";
 import styles from "./footer.module.css";
 import styled from "styled-components";
+import BrdjButton from "../BrdjButton";
 
 const H1 = styled.h1`
 color: #5b21b6;
@@ -14,6 +15,7 @@ export default function Footer(){
     return (
         <>
             <H1> Demo of Styled Components from Footer</H1>
+            <BrdjButton>Submit</BrdjButton>
             {/* <h1 
                 className={`${styles["my-heading"]} ${
                 isActive ? styles["primary-color"] : styles["secondary-color"]

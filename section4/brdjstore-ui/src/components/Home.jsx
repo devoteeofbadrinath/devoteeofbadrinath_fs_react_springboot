@@ -1,6 +1,7 @@
 import products from "../data/products";
 import PageHeading from "./PageHeading";
 import ProductListings from "./ProductListings";
+import BrdjButton from "./BrdjButton";
 
 export default function Home() {
     const isActive = Math.random() > 0.5;
@@ -19,6 +20,7 @@ export default function Home() {
             >
                 Demo of Global CSS Scope from Home
                 </h1>
+                <BrdjButton>Home</BrdjButton>
             {/* <h1 style={h1Styling}>Demo of Global CSS Scope from Home</h1> */}
             {/* <h1 className="my-heading">Demo of Global CSS Scope from Home</h1> */}
             <div className="home-container">
