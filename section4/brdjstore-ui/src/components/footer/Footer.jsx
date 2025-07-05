@@ -13,7 +13,7 @@ export default function Footer(){
     const isActive = Math.random() > 0.5;
     return (
         <>
-            <H1>Demo of Styled Components from Footer</H1>
+            <H1> Demo of Styled Components from Footer</H1>
             {/* <h1 
                 className={`${styles["my-heading"]} ${
                 isActive ? styles["primary-color"] : styles["secondary-color"]
