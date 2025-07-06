@@ -15,7 +15,7 @@ export default function Footer(){
     return (
         <>
             <H1> Demo of Styled Components from Footer</H1>
-            <BrdjButton>Submit</BrdjButton>
+            <BrdjButton primary>Submit</BrdjButton>
             {/* <h1 
                 className={`${styles["my-heading"]} ${
                 isActive ? styles["primary-color"] : styles["secondary-color"]
