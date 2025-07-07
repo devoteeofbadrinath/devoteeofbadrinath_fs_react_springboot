@@ -13,14 +13,14 @@ export default function Home() {
 
     return (
         <>
-            <h1 
+            {/* <h1 
                 className={`my-heading ${
                 isActive ? "primary-color" : "secondary-color"
                 }`}
             >
                 Demo of Global CSS Scope from Home
                 </h1>
-                <BrdjButton>Home</BrdjButton>
+                <BrdjButton>Home</BrdjButton> */}
             {/* <h1 style={h1Styling}>Demo of Global CSS Scope from Home</h1> */}
             {/* <h1 className="my-heading">Demo of Global CSS Scope from Home</h1> */}
             <div className="home-container">
