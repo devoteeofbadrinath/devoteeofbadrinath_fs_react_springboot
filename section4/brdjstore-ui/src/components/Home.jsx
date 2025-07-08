@@ -27,7 +27,14 @@ export default function Home() {
             {/* <h1 style={h1Styling}>Demo of Global CSS Scope from Home</h1> */}
             {/* <h1 className="my-heading">Demo of Global CSS Scope from Home</h1> */}
             <div className="home-container">
-            <BootstrapButton text="Submit" type="primary" />
+            <div className="container col-6">
+                <BootstrapButton text="Submit" type="primary" />
+                <BootstrapButton text="Save" type="secondary" />
+                <BootstrapButton text="Okay" type="success" />
+                <BootstrapButton text="Cancel" type="danger" />
+                <BootstrapButton text="Delete" type="warning" />
+                <BootstrapButton text="Link" type="link" />
+            </div>
             <PageHeading title="Explore Brdj stickers">
             Add a touch of creativity to your space with our wide range of fun and
             unique stickers. Perfect for any occasion!
