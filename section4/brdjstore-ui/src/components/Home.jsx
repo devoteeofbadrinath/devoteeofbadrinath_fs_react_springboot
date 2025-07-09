@@ -35,6 +35,23 @@ export default function Home() {
                 <BootstrapButton text="Delete" type="warning" />
                 <BootstrapButton text="Link" type="link" />
             </div>
+            <div>
+                <div class="alert alert-primary" role="alert">
+                A simple primary alert-check it out!
+                </div>
+                <div class="alert alert-secondary" role="alert">
+                A simple secondary alert-check it out!
+                </div>
+                <div class="alert alert-success" role="alert">
+                A simple success alert-check it out!
+                </div>
+                <div class="alert alert-danger" role="alert">
+                A simple danger alert-check it out!
+                </div>
+                <div class="alert alert-warning" role="alert">
+                A simple warning alert-check it out!
+                </div>
+            </div>
             <PageHeading title="Explore Brdj stickers">
             Add a touch of creativity to your space with our wide range of fun and
             unique stickers. Perfect for any occasion!
