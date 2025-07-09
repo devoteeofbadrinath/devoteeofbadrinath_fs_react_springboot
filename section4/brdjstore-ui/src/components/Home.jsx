@@ -35,21 +35,33 @@ export default function Home() {
                 <BootstrapButton text="Delete" type="warning" />
                 <BootstrapButton text="Link" type="link" />
             </div>
-            <div>
-                <div class="alert alert-primary" role="alert">
+            <div className="d-grid gap-2 col-8 mx-auto">
+                <div className="alert alert-primary text-center" role="alert">
                 A simple primary alert-check it out!
                 </div>
-                <div class="alert alert-secondary" role="alert">
+                <div className="alert alert-secondary text-center" role="alert">
                 A simple secondary alert-check it out!
                 </div>
-                <div class="alert alert-success" role="alert">
+                <div className="alert alert-success text-center" role="alert">
                 A simple success alert-check it out!
                 </div>
-                <div class="alert alert-danger" role="alert">
+                <div className="alert alert-danger text-center" role="alert">
                 A simple danger alert-check it out!
                 </div>
-                <div class="alert alert-warning" role="alert">
+                <div className="alert alert-warning text-center" role="alert">
                 A simple warning alert-check it out!
+                </div>
+                <div 
+                    className="alert alert-warning alert-dismissible fade show text-center" 
+                    role="alert"
+                >
+                    <strong>Warning!</strong> This is a warning alert!
+                    <button
+                        type="button"
+                        className="btn-close"
+                        data-bs-dismiss="alert"
+                        aria-label="Close"
+                    ></button>
                 </div>
             </div>
             <PageHeading title="Explore Brdj stickers">
