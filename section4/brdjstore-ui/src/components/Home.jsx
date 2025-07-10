@@ -64,7 +64,7 @@ export default function Home() {
                     ></button>
                 </div>
             </div>
-            <div className="container d-flex justify-content-center align-items-center">
+            <div className="container d-flex justify-content-center align-items-center gap-4">
             <div className="card" style={{width: "18rem"}}>
             <img src={developerImage} className="card-img-top" alt="..."/>    
             <div className="card-body">
@@ -91,6 +91,11 @@ export default function Home() {
                 </a>
             </div>
             </div>
+            </div>
+            <div className="row justify-content-center text-center mt-3 gap-3">
+                <div className="col-3 border p-3 bg-warning">Column 1</div>
+                <div className="col-3 border p-3 bg-success text-white">Column 2</div>
+                <div className="col-3 border p-3 bg-danger text-white">Column 3</div>
             </div>
             <PageHeading title="Explore Brdj stickers">
             Add a touch of creativity to your space with our wide range of fun and
