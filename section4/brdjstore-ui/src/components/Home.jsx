@@ -97,6 +97,7 @@ export default function Home() {
                     <div className="col-3 border p-3 bg-success text-white">Column 2</div>
                     <div className="col-3 border p-3 bg-danger text-white">Column 3</div>
                 </div>
+                <div className="container col-8 justify-content-center mt-3 border border-dark rounded">
                 <form>
                     <div className="mb-3">
                         <label htmlFor="exampleInputEmail1" className="form-label">
@@ -136,6 +137,7 @@ export default function Home() {
                         Submit
                     </button>
                 </form>
+                </div>
                 <PageHeading title="Explore Brdj stickers">
                     Add a touch of creativity to your space with our wide range of fun and
                     unique stickers. Perfect for any occasion!
