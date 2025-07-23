@@ -1,16 +1,14 @@
-package com.brdjdob.corecpncepts;
-
-import com.brdjdob.coreconcepts.BoseSpeaker;
+package com.brdjdob.coreconcepts;
 
 public class Vehicle {
 
     public void makeVehicle(){
-        // SonySpeaker speaker = new SonySpeaker();
-        BoseSpeaker speaker = new BoseSpeaker();
+        SonySpeaker speaker = new SonySpeaker();
+        //BoseSpeaker speaker = new BoseSpeaker();
         System.out.println(speaker.makeSound());
 
-        // MichelinWheel wheel = new MichelinWheel();
-        BridgeStoneWheel wheel = new BridgeStoneWheel();
+        MichelinWheel wheel = new MichelinWheel();
+        //BridgeStoneWheel wheel = new BridgeStoneWheel();
         System.out.println(wheel.moveVehicle());
     }
 

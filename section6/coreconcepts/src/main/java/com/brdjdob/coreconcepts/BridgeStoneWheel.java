@@ -1,4 +1,4 @@
-package com.brdjdob.corecpncepts;
+package com.brdjdob.coreconcepts;
 
 public class BridgeStoneWheel implements Wheel {
 

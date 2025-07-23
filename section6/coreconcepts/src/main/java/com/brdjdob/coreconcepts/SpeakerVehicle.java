@@ -1,4 +1,4 @@
-package com.brdjdob.corecpncepts;
+package com.brdjdob.coreconcepts;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;;
