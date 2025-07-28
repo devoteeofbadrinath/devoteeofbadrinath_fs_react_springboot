@@ -26,6 +26,12 @@ public class ProjectConfig {
         return vehicle;
     }
 
+    /*
+    The method names usually follow verbs notation. But for methods
+    which we will use to create beans, can use nouns as names.
+    This will be a good practice as the method names will become
+    bean names as well in the context.
+     */
     @Bean
     String hello() {
         return "Hello World";
