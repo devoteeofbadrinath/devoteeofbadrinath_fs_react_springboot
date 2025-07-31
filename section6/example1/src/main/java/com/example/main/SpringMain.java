@@ -12,7 +12,7 @@ public class SpringMain {
         var keyword in which it detects automatically the datatype of a variable
         based on the surrounding context.
          */
-        var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
     }
 }
