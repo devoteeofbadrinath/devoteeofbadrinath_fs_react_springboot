@@ -15,7 +15,13 @@ public class SpringMain {
          */
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        context.getBean(Vehicle.class);
+        Vehicle vehicle = context.getBean(Vehicle.class);
+        System.out.println("Vehicle name from Spring Context is: " + vehicle.getName());
+
+        String hello = context.getBean(String.class);
+        System.out.println("String value from Spring Context is: " + hello);
+
+
 
     }
 }
