@@ -26,7 +26,7 @@ public class SpringMain {
         String hello = context.getBean(String.class);
         System.out.println("String value from Spring Context is: " + hello);
 
-        Integer num =  context.getBean(Float.class);
+        Float num =  context.getBean(Float.class);
         System.out.println("Integer value from Spring Context is: " + num);
     }
 }
