@@ -1,5 +1,6 @@
 package com.example.main;
 
+import com.example.beans.Vehicle;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import com.example.config.ProjectConfig;
 
@@ -13,6 +14,8 @@ public class SpringMain {
         based on the surrounding context.
          */
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
+
+        context.getBean(Vehicle.class);
 
     }
 }
