@@ -1,12 +1,12 @@
 package com.example.beans;
 
-import jakarta.annotation.PostConstruct;
-import org.springframework.stereotype.Component;
-
-@Component
 public class  Vehicle {
 
     private String name;
+
+    public Vehicle() {
+        System.out.println("Vehicle bean created by Spring");
+    }
 
     public String getName() {
         return name;
@@ -20,8 +20,10 @@ public class  Vehicle {
         System.out.println("Printing Hello from Component Vehicle Bean");
     }
 
-    @PostConstruct
-    public void initialize(){
-        this.name = "Honda";
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }

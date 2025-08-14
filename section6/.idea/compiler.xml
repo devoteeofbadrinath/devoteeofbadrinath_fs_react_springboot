@@ -9,12 +9,13 @@
         <module name="example1" />
         <module name="example3" />
         <module name="example2" />
+        <module name="example5" />
+        <module name="example4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="coreconcepts" target="21" />
       <module name="example2 (1)" target="21" />
-      <module name="example4" target="21" />
       <module name="example4 (1)" target="21" />
     </bytecodeTargetLevel>
   </component>
