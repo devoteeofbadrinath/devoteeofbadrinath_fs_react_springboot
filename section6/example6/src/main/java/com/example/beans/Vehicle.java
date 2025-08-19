@@ -10,11 +10,17 @@ public class  Vehicle {
     private String name;
 
     //@Autowired
-    private Engine engine;
+    private final Engine engine;
 
-    public Vehicle() {
+    @Autowired
+    public Vehicle(Engine engine) {
+        this.engine = engine;
         System.out.println("Vehicle bean created by Spring");
     }
+
+//    public Vehicle() {
+//        System.out.println("Vehicle bean created by Spring");
+//    }
 
     public String getName() {
         return name;
@@ -28,10 +34,10 @@ public class  Vehicle {
         return engine;
     }
 
-    @Autowired
-    public void setEngine(Engine engine) {
-        this.engine = engine;
-    }
+//    @Autowired
+//    public void setEngine(Engine engine) {
+//        this.engine = engine;
+//    }
 
     public void sayHello() {
         System.out.println("Printing Hello from Component Vehicle Bean");
