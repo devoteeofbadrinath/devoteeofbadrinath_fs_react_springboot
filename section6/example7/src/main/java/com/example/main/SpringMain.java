@@ -12,7 +12,7 @@ public class SpringMain {
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
         CoffeeShop shop = context.getBean(CoffeeShop.class);
         Coffee coffee = context.getBean(Coffee.class);
-        System.out.println("Engine name from Spring Context is: "
+        System.out.println("Coffee from Spring Context is: "
                 + shop.getCoffee().makeCoffee());
 
     }
