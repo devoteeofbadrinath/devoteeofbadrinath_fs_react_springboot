@@ -12,4 +12,8 @@ public class CoffeeShop {
     public CoffeeShop(Coffee coffee) {
         this.coffee = coffee;
     }
+
+    public Coffee getCoffee() {
+        return coffee;
+    }
 }
