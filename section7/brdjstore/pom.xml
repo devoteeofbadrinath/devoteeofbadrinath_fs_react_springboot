@@ -49,6 +49,10 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.project</groupId>
+			<artifactId></artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
