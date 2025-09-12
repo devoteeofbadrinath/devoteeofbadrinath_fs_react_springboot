@@ -1,4 +1,6 @@
 package com.brdjdob.brdjstore.service.impl;
 
-public class ProductServiceImpl {
+import com.brdjdob.brdjstore.service.IProductService;
+
+public class ProductServiceImpl implements IProductService {
 }
