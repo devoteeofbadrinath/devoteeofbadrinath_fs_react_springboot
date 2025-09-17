@@ -1,5 +1,6 @@
 package com.brdjdob.brdjstore.service.impl;
 
+import com.brdjdob.brdjstore.dto.ProductDto;
 import com.brdjdob.brdjstore.entity.Product;
 import com.brdjdob.brdjstore.repository.ProductRepository;
 import com.brdjdob.brdjstore.service.IProductService;
@@ -17,5 +18,10 @@ public class ProductServiceImpl implements IProductService {
     @Override
     public List<Product> getProducts() {
         return productRepository.findAll();
+    }
+
+    private ProductDto transformToDto (Product product) {
+        ProductDto productDto = new ProductDto();
+        productDto.setProductId(product.getProductId());
     }
 }
